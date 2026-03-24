@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxClass xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SalesLine_HoldalExtension</Name>
+  <SourceCode>
+    <Declaration><![CDATA[
+[ExtensionOf(tableStr(SalesLine))]
+final class SalesLine_HoldalExtension
+{
+}
+]]></Declaration>
+    <Methods>
+      <Method>
+        <Name>grossSales</Name>
+        <Source><![CDATA[
+    /// <summary>
+    /// Calculates Gross Sales as SalesPrice multiplied by SalesQty.
+    /// </summary>
+    /// <returns>The gross sales amount.</returns>
+    [SysClientCacheDataMethod(true)]
+    public static server SalesAmount grossSales(SalesLine _salesLine)
+    {
+        return _salesLine.SalesPrice * _salesLine.SalesQty;
+    }
+]]></Source>
+      </Method>
+    </Methods>
+  </SourceCode>
+</AxClass>

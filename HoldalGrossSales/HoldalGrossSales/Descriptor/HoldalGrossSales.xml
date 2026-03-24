@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxModelInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <AppliedUpdates xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Customization>Allow</Customization>
+  <Description>Adds Gross Sales display column to Sales Order Lines inquiry for Holdal</Description>
+  <DisplayName>Holdal Gross Sales</DisplayName>
+  <InAppStore>false</InAppStore>
+  <Layer>8</Layer>
+  <Locked>false</Locked>
+  <ModelModule>HoldalGrossSales</ModelModule>
+  <Name>HoldalGrossSales</Name>
+  <Publisher>Holdal</Publisher>
+  <SeparateSqlDatabase>false</SeparateSqlDatabase>
+  <SignedHash i:nil="true" />
+  <SupportsNew>true</SupportsNew>
+  <VersionBuild>0</VersionBuild>
+  <VersionMajor>1</VersionMajor>
+  <VersionMinor>0</VersionMinor>
+  <VersionRevision>0</VersionRevision>
+  <ModuleReferences>
+    <string>ApplicationPlatform</string>
+    <string>ApplicationFoundation</string>
+    <string>ApplicationSuite</string>
+  </ModuleReferences>
+</AxModelInfo>
