@@ -1,0 +1,2 @@
+# D365 F&O metadata files require CRLF line endings
+*.xml text eol=crlf

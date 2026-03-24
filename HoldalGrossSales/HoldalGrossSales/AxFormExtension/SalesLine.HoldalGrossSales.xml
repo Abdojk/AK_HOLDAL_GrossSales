@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxFormExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SalesLine.HoldalGrossSales</Name>
+  <FormRef>SalesLine</FormRef>
+  <Controls>
+    <AxFormControl xmlns=""
+                   i:type="AxFormRealControl">
+      <Name>HoldalGrossSales</Name>
+      <ExtensionProperties>
+        <AxFormControlExtensionProperty>
+          <Name>FormControlParent</Name>
+          <Type>String</Type>
+          <Value>LineViewGrid</Value>
+        </AxFormControlExtensionProperty>
+      </ExtensionProperties>
+      <AutoDeclaration>No</AutoDeclaration>
+      <Enabled>Yes</Enabled>
+      <AllowEdit>No</AllowEdit>
+      <Visible>Yes</Visible>
+      <LabelText>Gross Sales</LabelText>
+      <DataSource>SalesLine</DataSource>
+      <DataMethod>SalesLine_HoldalExtension::grossSales</DataMethod>
+      <NoOfDecimals>Auto</NoOfDecimals>
+    </AxFormControl>
+  </Controls>
+  <DataSources />
+  <PropertyModifications />
+</AxFormExtension>
